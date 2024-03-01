@@ -1,0 +1,11 @@
+.required {
+/* padding-left: 20px; */
+}
+
+.required::before {
+    content: "*";
+    position: relative;
+    display: inline-block;
+    color: #bd0000;
+    padding: 0 5px;
+}

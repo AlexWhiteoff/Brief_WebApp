@@ -6,8 +6,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const links = [
-    { name: "Home", href: "/", icon: HomeIcon },
-    { name: "Answers", href: "/answers", icon: DocumentTextIcon },
+    { name: "Бриф", href: "/", icon: HomeIcon },
+    { name: "Відповіді", href: "/answers", icon: DocumentTextIcon },
 ];
 
 export default function NavLinks() {
