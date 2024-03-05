@@ -1,4 +1,4 @@
-// This file contains placeholder data for seed data base
+// This file contains placeholder data
 
 const users = [
     {
@@ -8,6 +8,7 @@ const users = [
         password: "123456",
     },
 ];
+
 
 module.export = {
     users,
